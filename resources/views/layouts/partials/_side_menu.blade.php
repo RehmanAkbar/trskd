@@ -17,7 +17,7 @@
             <li><a href="{{route('sms.index')}}">SMS Details</a></li>
             <li><a href="{{route('SendAllStudentsSms')}}">All Student SMS</a></li>
             <li><a href="{{route('SendAllStaffSms')}}">All Staff SMS</a></li>
-            {{--<li><a href="section_strength_analysis.html">Strength Analysis</a></li>--}}
+            <li><a href="{{route('school_info')}}">School Information</a></li>
             <li>
                 <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
             </li>

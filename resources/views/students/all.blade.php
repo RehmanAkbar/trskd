@@ -70,6 +70,9 @@
                                 <a href="{{route('studentSlip' , [$student->id])}}" title="Roll Number Slip">
                                     <i class="fa fa-link"></i>
                                 </a>
+                                <a href="{{route('student-card',[$student->id])}}" title="Card">
+                                    <i class="fa fa-credit-card" aria-hidden="true"></i>
+                                </a>
                                 <a class="delete" data-id="{{$student['user']->id}}" href="javascript:void(0)" title="Delete">
                                     <i class="fa fa-trash"></i>
                                 </a>

@@ -64,4 +64,8 @@ class Student extends Model
         return ($totalSms * SMSCharges);
     }
 
+    public function getNameAttribute()
+    {
+        return $this->user->First_Name ." ". $this->user->Last_Name;
+    }
 }

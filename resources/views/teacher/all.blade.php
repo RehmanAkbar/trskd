@@ -63,8 +63,12 @@
                                     <a class="status" data-id="{{$teacher['user']->id}}" href="javascript:void(0)" title="{{($teacher['user']->Activated) ? 'Un Lock' :  'Locked'}}">
                                         <i class="fa {{($teacher['user']->Activated) ? 'fa-unlock' :  'fa-lock'}} "></i>
                                     </a>
+
                                     <a href="{{route('view_salary_slip' , [$teacher->id])}}" title="Salary Slip">
                                         <i class="fa fa-link"></i>
+                                    </a>
+                                    <a href="{{route('teacher-card',[$teacher->id])}}" title="Card">
+                                        <i class="fa fa-credit-card" aria-hidden="true"></i>
                                     </a>
                                     <a class="delete" data-id="{{$teacher['user']->id}}" href="javascript:void(0)" title="Delete">
                                         <i class="fa fa-trash"></i>

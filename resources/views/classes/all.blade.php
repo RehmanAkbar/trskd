@@ -44,6 +44,7 @@
                         <td>{{$class->seats}}</td>
                         <td>
                             <a href="{{route('classes.edit' , [$class->id])}}" title="Edit"><i class="fa fa-pencil"></i> </a>
+                            <a href="{{route('class-students' , [$class->id])}}" title="Students"><i class="fa fa-eye"></i> </a>
                             <a href="javascript:void(0)" data-id="{{$class->id}}" class="delete" title="Delete"><i class="fa fa-trash"></i> </a>
                         </td>
                     </tr>

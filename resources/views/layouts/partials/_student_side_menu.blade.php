@@ -8,6 +8,7 @@
             <li><a href="{{route('exams')}}">Exams</a></li>
             <li><a href="roll_no_slip.html">Roll No Slip</a></li>
             <li><a href="{{route('single.sms_view')}}">SMS</a></li>
+            <li><a href="{{route('calender')}}">Holiday Calendar</a></li>
             <li>
                 <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
             </li>
